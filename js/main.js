@@ -199,7 +199,29 @@
 //         return `shuncha joy ortadi ${i} shuncha sigadi ${b}`
 //             }
 //             console.log(foo(20, 4));
-// }
+// } 
+{
+    //  4masala
+    function foo(n) {
+        if (n <= 0) {
+            console.log("n 0 dan katta bo'lishi kerak");
+            return;
+        }
+    
+        let i = 1;
+    
+        while (i < n) {
+            i *= 3;
+        }
+    
+        if (i === n) {
+            return "3 ning darajasi";
+        } else {
+            return "3 ning darajasi emas";
+        }
+    }
+    console.log(foo(17));
+}
     
 
 
